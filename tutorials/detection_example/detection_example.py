@@ -23,6 +23,7 @@ def main():
         top_p=0.05,
         top_k=1,
         repetition_penalty=1.05,
+        attn_implementation="eager",
     )
 
     # Load imag
